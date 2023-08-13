@@ -49,7 +49,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    animation: zooIn 2s ease-in-out; /* Animation duration and timing function */
+    animation: zooIn 3s ease-in-out; /* Animation duration and timing function */
   }
   .element > h1{
     color: white;
@@ -620,14 +620,14 @@ h1{
   left: 10px;
 }
 
-.elementor-2736 .elementor-element.elementor-element-fb5d879 .elementor-button{
+/* .elementor-2736 .elementor-element.elementor-element-fb5d879 .elementor-button{
     font-family: "Montserrat", Sans-serif;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     background-color: #FF6666;
     border-radius: 0px 0px 0px 0px;
-}
+} */
 .button{
     font-family: "Montserrat", Sans-serif;
     background-color:#FF6666;
@@ -640,11 +640,24 @@ h1{
     text-transform: uppercase;
     box-shadow: 1px 1px 2px #000000;
     margin-top: 25px;
+    --bs-btn-hover-bg: #000;
+    --bs-btn-color: white;
+    --bs-btn-color: #fff;
   }
   .button> a{
     text-decoration: none;
     color: white;
   }
+
+
+  /* .boton>.button2{
+    background-color: #000;
+    --bs-btn-hover-bg: #FF6666;
+    --bs-btn-hover-border-color: #FF6666;
+    --bs-btn-border-color: #000000;
+    margin-top: -32px;
+
+  } */
 
   .regalos{
     display: flex;
@@ -683,12 +696,13 @@ h1{
   /*according*/
   .accordion {
     background-color: #eee;
+    font-family: "Montserrat", Sans-serif;
     color: #000000;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
@@ -781,12 +795,13 @@ h1{
   }
 
   .boton>.fsubmit{
-    background-color: white;
+    /* background-color: white; */
   --bs-btn-hover-bg: #000;
   --bs-btn-hover-border-color: #FF6666;
   --bs-btn-border-color: white;
   --bs-btn-color:#000;
   margin-top: -32px;
+  color:#FF6666;
 
 
   }
@@ -806,14 +821,15 @@ h1{
   }
   
   .music>h2{
-    margin-top: 150px;
+    margin-top: 100px;
     color: #FFFFFF;
     font-family: "Montserrat", Sans-serif;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0px;
     padding-bottom: 50px;
+    text-align: center;
   }
   .music>h3{
     color: #FFFFFF;
@@ -824,6 +840,7 @@ h1{
     line-height: 20px;
     letter-spacing: 1px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 
@@ -991,6 +1008,7 @@ label{
   --bs-btn-hover-border-color: #FF6666;
   --bs-btn-border-color: #000000;
   margin-top: -32px;
+
 
 }
 
@@ -1205,7 +1223,7 @@ text-align: center;
   -ms-transform-origin:0 0;
   -o-transform-origin:0 0;
   transform-origin:0 0;
-  background-color: #FF6666;
+  background-color: #000;
   background-image:"/img/pause-play.png";
   letter-spacing:2px;
   font-family:"montserrat";

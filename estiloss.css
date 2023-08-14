@@ -43,7 +43,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: url("/img/portada-glam-2-scaled.jpeg");
+    background-image: url("/img/optimizada.avif");
     background-size:cover;
     background-position: center top; 
     background-attachment: fixed;
@@ -64,9 +64,10 @@ body {
     justify-content: center;
     align-items: center;
 
-    /*animation: zooIn 3s ease-in-out; Animation duration and timing function */
-    animation: zooIn 2s ease-in;
+    animation: zooIn 3s ease-in-out; /*Animation duration and timing function */
+   
   }
+  
   .elementt > h1{
     color: white;
     font-family: 'Birthstone Bounce', cursive;
@@ -149,7 +150,7 @@ h1{
   height: 300px;
   line-height: 64px;
   margin: 0 auto 3%;
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
   /* text-transform: uppercase; */
   width: 95%;
@@ -1152,7 +1153,7 @@ ul.asistencia{
   }
 
   li.asistencia{
-    margin: 0px 25px;
+    margin: 0px 20px;
   }
 
   .fsubmit{
@@ -1195,6 +1196,18 @@ section>.asistir{
       margin-right: 5px;
     }
   }
+  @media (min-width: 601px) {
+    .fotomodal{
+      width: 100%;
+      
+    }
+  }
+  @media (max-width: 600px){
+    .fotomodal{
+      width: 100%;
+    }
+  }
+
 
 .contformcent{
   /* width: 85%; */

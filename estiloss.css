@@ -67,7 +67,7 @@ body {
     animation: zooIn 3s ease-in-out; /*Animation duration and timing function */
    
   }
-  
+
   .elementt > h1{
     color: white;
     font-family: 'Birthstone Bounce', cursive;
@@ -1204,7 +1204,7 @@ section>.asistir{
   }
   @media (max-width: 600px){
     .fotomodal{
-      width: 100%;
+      width: 90%;
     }
   }
 

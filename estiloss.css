@@ -28,6 +28,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 20%;
 
   }
   .tituloPortada>h1{
@@ -97,6 +98,8 @@ body {
       opacity: 1; /* Fully visible */
     }
   }
+
+  
 
 
 .widget{
@@ -171,11 +174,11 @@ h1{
   animation-delay: 1.5s;
 }
 
-.three {
+/* .three {
   -webkit-animation-delay: 2.5s;
   -moz-animation-delay: 2.5s;
   animation-delay: 2.5s;
-}
+} */
 
 .four {
   -webkit-animation-delay: 3.5s;
@@ -700,6 +703,7 @@ h1{
       line-height: 20px;
       letter-spacing: 1px;
       text-align: center;
+      margin-top: 32px;
   }
   .regalos>button{
     margin-top: 20px;
@@ -1182,6 +1186,14 @@ section>.asistir{
 
     .contformcent{
       max-width: 767px;
+    }
+  }
+
+  @media (max-width: 414px)
+  {
+    .music>h3{
+      margin-left:  5px;
+      margin-right: 5px;
     }
   }
 

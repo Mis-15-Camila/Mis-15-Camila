@@ -63,7 +63,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     animation: zooIn 3s ease-in-out; /*Animation duration and timing function */
    
   }
@@ -155,10 +155,10 @@ h1{
   /* text-transform: uppercase; */
   width: 95%;
 }
-/*=== Trigger  ===*/
+/*=== Trigger  aumente a 3s era 1s ===*/
 .animate {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -593,6 +593,11 @@ h1{
 @media (max-width: 767px){
   .simply-word{
     font-size: 19px;
+  }
+}
+@media (max-width: 375){
+  .panel>p{
+    font-size: 20px;
   }
 }
 
@@ -1041,9 +1046,6 @@ label{
   display: flex;
   justify-content:center;
   margin-top: 64px;
-  margin-bottom: 50px;
-
-
 
 }
 .boton2>button{
@@ -1221,7 +1223,7 @@ section>.asistir{
   padding: 10% 5% 10% 5%; */
   background-color: #FF6666 ;
   flex-direction: column;
-  padding-bottom:  200px;
+  padding-bottom:  100px;
 }
 
 /*Modal*/
@@ -1319,3 +1321,4 @@ text-align: center;
 
 
 }
+

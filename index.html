@@ -143,9 +143,12 @@
 
 
     <section>
+     
         <div class="hero">
-            <div id="cuenta" class="cuenta"></div>
-        </div>
+          <div id="cuenta" class="cuenta"></div>
+     
+      </div>
+        
     </section>
 
     <!-- <section class="galeria">
@@ -399,7 +402,7 @@
           <p class="tespero">Te espero!</p>
         </div>
         
-        <form id="myForm" action="https://formsubmit.co/nadia.vero8787@gmail.com" method="POST">
+        <form id="myForm" action="https://formsubmit.co/salazarromina24@yahoo.com.ar" method="POST">
           <!--era contact-Form-->
           <div class="container_2">
           
@@ -604,7 +607,7 @@
            $response = d.querySelector(".contact-form-response");
          /*  $loader.classList.remove("none");*/
    
-         fetch("https://formsubmit.co/ajax/nadia.vero8787@gmail.com", {
+         fetch("https://formsubmit.co/ajax/salazarromina24@yahoo.com.ar", {
            method: "POST",
            body: new FormData(e.target)
          })
@@ -637,7 +640,7 @@
 
 
    <script>
-
+/* No esta activo*/
     const doc = document;
    
      function contactFormu() { 
@@ -651,7 +654,7 @@
            $response = doc.querySelector(".contact-response");
          /*  $loader.classList.remove("none");*/
    
-         fetch("https://formsubmit.co/ajax/nadia.vero8787@gmail.com", {
+         fetch("https://formsubmit.co/ajax/salazarromina24@yahoo.com.ar", {
            method: "POST",
            body: new FormData(e.target)
          })
@@ -715,6 +718,27 @@
      playPauseBTN.innerHTML = "Play ►";
    }
  </script> 
+ <script>
+  //scroll
+
+document.addEventListener("DOMContentLoaded", function () {
+  const element = document.querySelector(".elemento");
+  const fadeInLeftClass = "fadeInLeft";
+  
+  function fadeInLeftOnScroll() {
+    const elementPosition = element.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    
+    if (elementPosition - windowHeight <= 0) {
+      element.classList.add(fadeInLeftClass);
+      window.removeEventListener("scroll", fadeInLeftOnScroll);
+    }
+  }
+  
+  window.addEventListener("scroll", fadeInLeftOnScroll);
+});
+
+ </script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
